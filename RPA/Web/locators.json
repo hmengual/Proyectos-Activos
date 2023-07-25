@@ -1,0 +1,58 @@
+{
+    "Address": {
+        "screenshot": ".images/address-screenshot.png",
+        "source": "https://rpachallenge.com/",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'Address')]/../input"
+    },
+    "Company Name": {
+        "screenshot": ".images/company-name-screenshot.png",
+        "source": "https://rpachallenge.com/",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'Company Name')]/../input"
+    },
+    "Email": {
+        "screenshot": ".images/email-screenshot.png",
+        "source": "https://rpachallenge.com/",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'Email')]/../input"
+    },
+    "First Name": {
+        "screenshot": ".images/first-name-screenshot.png",
+        "source": "https://rpachallenge.com/",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'First Name')]/../input"
+    },
+    "Last Name": {
+        "screenshot": ".images/last-name-screenshot.png",
+        "source": "https://rpachallenge.com/",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'Last Name')]/../input"
+    },
+    "Phone Number": {
+        "screenshot": ".images/phone-number-screenshot.png",
+        "source": "https://rpachallenge.com/",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'Phone Number')]/../input"
+    },
+    "Role in Company": {
+        "screenshot": ".images/role-in-company-screenshot.png",
+        "source": "https://rpachallenge.com/",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'Role in Company')]/../input"
+    },
+    "Congratulations": {
+        "screenshot": null,
+        "source": "https://rpachallenge.com/",
+        "strategy": "css",
+        "type": "browser",
+        "value": "div.congratulations"
+    }     
+}
